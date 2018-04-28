@@ -1,0 +1,64 @@
+.cloud-upload-solid.icon{
+  color: 000;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 90px;
+  width: 50px;
+  height: 60px;
+  border-radius: 40px 0 0 40px;
+  background-color: currentColor;
+  border-left: solid 1px currentColor;
+  border-top: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+}
+.cloud-upload-solid.icon:before {
+  content:'';
+  position:absolute;
+  top: -55px;
+  left: 40px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -web-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: currentColor;
+}
+
+.cloud-upload-solid.icon:after {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 70px;
+  height: 60px;
+  background-color: currentColor;
+  border-bottom: solid 1px currentColor;
+}
+.cloud-upload-solid.icon i {
+  position: absolute;
+  left: 50px;
+  top: -50px;
+  color: #fff;
+  z-index: 2;
+}
+.cloud-upload-solid.icon i:before{
+  content:'';
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 10px;
+  height: 70px;
+  background-color: currentColor;
+}
+.cloud-upload-solid.icon i:after{
+  content:'';
+  position: absolute;
+  left: 30px;
+  top: 35px;
+  width: 40px;
+  height: 40px;
+  border-top: solid 10px currentColor;
+  border-right: solid 10px currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45eg);
+}
